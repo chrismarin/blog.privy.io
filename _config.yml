@@ -1,0 +1,10 @@
+name: "blog.privy.io"
+description: "a blog of things"
+
+url: "http://blog.privy.io/"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
