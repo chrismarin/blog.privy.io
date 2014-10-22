@@ -1,0 +1,100 @@
+header {
+	background-image:url(../images/estatee.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.0em;
+  font-weight: 700;
+  margin: 0;
+  padding: 00px;
+}
+
+p {
+color: #555;
+font-size: 1.3em;
+}
+
+// Classes
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Usage as mixins
+.element {
+  .center-block();
+}
+
+.faceboook {
+	margin-left:68px;
+}
+
+.navbar-default .navbar-brand {
+color: #777;
+margin-top: -5px;
+}
+
+header {
+  height:630px;
+}
+
+header h3 {
+  color: #fcfcfc;
+}
+
+.arrow-wrap {
+background: transparent;
+}
+
+.arrow:after {
+border-color: transparent transparent transparent transparent;
+}
+
+.arrow {
+border-color: #2548B6 transparent transparent transparent;
+}
+
+.test {
+margin-top: -11px;
+margin-left: -2px;
+}
+
+.yo {
+    background-image: url("../images/facebook6.png");
+    width: 90px;
+    height: 90px;
+    background-size: 2100px 800px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+margin-right: 8px;
+}

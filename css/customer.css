@@ -1,0 +1,38 @@
+header a {
+color: black;
+opacity: 1;
+text-decoration: none;
+}
+
+header {
+	color:black;
+}
+
+body {
+background-image:url(../images/grass.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #333
+}
+
+header h3 { 
+color:#653492;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 40px;
+}
