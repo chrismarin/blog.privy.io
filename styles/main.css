@@ -6,7 +6,7 @@
 }
 body {
     margin:0;
-    background:#14b5d1;
+    /*background:#14b5d1;*/
     font-size:1.3em;
     font-family:'Open Sans', sans-serif;
 }
@@ -59,6 +59,11 @@ p a {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     margin-right: 8px;
 }
+.navbar-default .navbar-nav .active a{
+
+    border-radius: 10px;
+    color: black;
+}
 
 /*Main content header*/
 header h1 {
@@ -109,6 +114,20 @@ section {
 footer {
     padding: 20px 0;
     background-color: #E7E7E7;
+}
+
+/* modal window */
+.modal-container {
+    width: 500px;
+    clear: both;
+}
+.modal-container input {
+    width: 100%;
+    clear: both;
+}
+.modal-container textarea {
+    width: 100%;
+    clear: both;
 }
 
 /* ============================================================================================== 

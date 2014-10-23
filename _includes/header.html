@@ -25,8 +25,45 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#" onclick="popupOpen();">Request a demo</a></li>
+            <li><a href="javascript:void();" onclick="showModal();">Request a demo</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="emailPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Get started with privy.io</h4>
+          </div>
+          <div id="modal-body" class="modal-body modal-container">
+            <form id="sub-form" onsubmit="return false;">
+              <p>If you like our content, fill out the form below.
+              We'll make sure you get our best stuff.</p>
+              <div>
+                <label>Email Address</label>
+                <input id="modal-address" type="email" required/>
+              </div>
+              <div>
+                <label>Name</label>
+                <input id="modal-name" type="text" required/>
+              </div>
+              <div>
+                <label>Message</label>
+                <textarea id="modal-message"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
