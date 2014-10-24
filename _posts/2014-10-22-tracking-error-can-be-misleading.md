@@ -13,7 +13,7 @@ Firstly, what precisely is tracking error? It's a common misconception that it i
 So, establishing that tracking error is more felicitously categorized as the consistency of an ETF's daily return relative to its index, what is excess return? Excess return is far easier to define and really at the crux of what most desire from their ETF investment: it displays the fund's NAV total return compared with that of its benchmark return over a defined period of time. For example: the utility sector went up 14% this year? If my ETF tracking it went up 15% and possesses an expense ratio of .4%, then this fund has yielded a 1.4% excess return.
 Bear in mind that a fund's NAV total return includes fund expenses, so excess return begins at the point where the fund began beating the index sans the expense ratio. You'll notice in our example the aforementioned ETF gets credit for a 1.4% excess return as opposed to just a 1% because it also beat the index by its expense ratio, which is included in our figure.
 
-<img src="/images/img1.png">
+<img class="img-responsive" src="/images/img1.png">
 
 The chart above is used to help elucidate the aforementioned information. In this hypothetical example a fund with superior tracking error is juxtaposed with a fund that would be described as having poor consistency in its tracking ability. As apparent, the real-world manifestation of this is quite different than one would typically expect. This is not intended to denigrate the metric of tracking error and utilizing it as part of your thesis for owning a particular ETF, but merely to help contextualize it as only part of the story, not the story, when evaluating fund performance and objectives.
 
