@@ -1,7 +1,7 @@
 ---
 title: Own An ETF? Why Tracking Error Can Be A Misleading Metric
 subtitle: Jason Orestes
-byline: jorestes
+byline: JasonOrestes
 layout: post
 ---
 
